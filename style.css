@@ -71,6 +71,17 @@ nav .Logo {
     align-items: center;
 }
 
+/* *************Footer********************* */
+footer {
+    background: rgba(54, 55, 63, 0.37);
+    text-align: center; 
+    padding: 20px; 
+    color: rgb(71, 153, 189); 
+}
+
+footer p {
+    margin: 10px 0; 
+}
 
 
 
