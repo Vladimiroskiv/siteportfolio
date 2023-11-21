@@ -71,6 +71,28 @@ nav .Logo {
     align-items: center;
 }
 
+.tool-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px; 
+    margin-top: 10%;
+    margin-bottom: 10%; 
+}
+
+.image-container {
+    transition: transform 0.3s ease;
+}
+
+.image-container img {
+    width: 200px; 
+    height: auto;
+    }
+
+.image-container:hover {
+    transform: scale(1.2); 
+}
+
 /* *************Footer********************* */
 footer {
     background: rgba(54, 55, 63, 0.37);
