@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;    
+}
+
+body {
+    font-family: 'inter', sans-serif;
+    background-color: rgb(4, 1, 22);
+}
+
+/* *************nav********************* */
+nav ul li a, 
+nav ul li a:link, 
+nav ul li a:visited, 
+nav ul li a:hover, 
+nav ul li a:active, 
+nav ul li a:focus {
+    color:rgb(17, 219, 169); 
+}
+nav ul li a:hover {
+    color:rgb(0, 206, 86); 
+    transform: scale(1.1); 
+    transition: color 0.5s ease, transform 0.5s ease; 
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 128px;
+    background: rgba(2, 70, 19, 0.37);
+    width: 939px;
+    height: 130px;
+    flex-shrink: 0;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 110px;
+    }
+
+nav ul li{
+    width: 138px;
+    height: 58px;
+    flex-shrink: 0;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 -10px;
+}
+
+/* logo */
+
+nav .Logo{  
+    width: 151px;
+    height: 171px;
+    flex-shrink: 0;
+    object-fit: cover;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ************************************** */
+/* *************main********************* */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 350px;
+    background: rgba(2, 70, 19, 0.37);
+    width: 1500px;
+    height: 1000px;
+    flex-shrink: 0;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 5px 80px rgba(40, 218, 194, 0.493);
+    border: 1px solid rgb(3, 66, 29);
+ }
+
+.logo, .icon, .photoshop, .illustrator, .figma {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 50px; 
+    padding: 15px; 
+    margin-bottom: 20px;     
+}
+
+.image img {
+    width: 150px; 
+    height: auto;
+    display: block; 
+}
+
+
+
+
+
+/* *************Footer********************* */
+footer {
+    text-align: center; 
+    padding: 20px; 
+    color: rgb(17, 219, 169); 
+}
+
+footer p {
+    margin: 10px 0; 
+}
+
+
