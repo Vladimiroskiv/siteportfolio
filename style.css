@@ -8,7 +8,7 @@
 
 body {
     font-family: 'inter', sans-serif;
-    background-image: url('assests/background.png');
+    background-image: url('/assests/images/background.png');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -70,7 +70,7 @@ nav .Logo {
     justify-content: center;
     align-items: center;
 }
-
+/* *************Main********************* */
 .tool-images {
     display: flex;
     justify-content: center;
